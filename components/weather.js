@@ -52,18 +52,18 @@ export default function Weather() {
 
     const now = Date.now();
 
-const pastData = data2.list.filter(
-  (item) => new Date(item.dt_txt).getTime() < now
-);
+    const pastData = data2.list.filter(
+      (item) => new Date(item.dt_txt).getTime() < now
+    );
 
-setHistory(pastData.slice(-6)); // last few hours
+    setHistory(pastData.slice(-6)); // last few hours
 
   };
 
   return (
     <div className="container">
 
-        <img className="cloud cloud1" src="https://pngimg.com/uploads/cloud/cloud_PNG16.png" />
+      <img className="cloud cloud1" src="https://pngimg.com/uploads/cloud/cloud_PNG16.png" />
       <img className="cloud cloud2" src="https://pngimg.com/uploads/cloud/cloud_PNG16.png" />
 
 

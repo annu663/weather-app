@@ -2,20 +2,20 @@ export default function WeatherData({ data }) {
 
   const icon = `https://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png`;
 
-    return (
-        <div className="card">
+  return (
+    <div className="card">
 
-          <div className="top">
-            <div> 
-              <h2>{data.name}</h2>
+      <div className="top">
+        <div>
+          <h2>{data.name}</h2>
           <h1>{Math.round(data.main.temp)}°C</h1>
           <p>{data.weather[0].description}</p>
-            </div>
+        </div>
 
-            <img src={icon}/>
-          </div>
+        <img src={icon} />
+      </div>
 
-          <div className="info">
+      <div className="info">
         <div>
           <span>Humidity</span>
           <h3>{data.main.humidity}%</h3>
@@ -30,7 +30,7 @@ export default function WeatherData({ data }) {
         </div>
       </div>
 
- <style jsx>{`
+      <style jsx>{`
         .card {
           margin: 0 auto;
           width: 700px;
@@ -85,9 +85,9 @@ export default function WeatherData({ data }) {
           font-size: 20px;
         }
       `}</style>
-      
 
 
-        </div>
-    );
+
+    </div>
+  );
 }

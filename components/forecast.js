@@ -1,24 +1,3 @@
-// export default function Forecast({ data }) {
-//   return (
-//     <div className="forecast">
-
-//       {data.map((item, index) => (
-//         <div className="f-card" key={index}>
-
-//           <p>
-//             {new Date(item.dt_txt).toLocaleDateString("en-US", {
-//               weekday: "short",
-//             })}
-//           </p>
-
-//           <h4>{Math.round(item.main.temp)}°</h4>
-
-//         </div>
-//       ))}
-
-//     </div>
-//   );
-// }
 export default function Forecast({ data }) {
   const daily = data.filter((item) =>
     item.dt_txt.includes("12:00:00")
