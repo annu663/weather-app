@@ -63,6 +63,26 @@ export default function Forecast({ data }) {
         h4 {
           font-size: 18px;
         }
+
+        /* 📱 MOBILE */
+@media (max-width: 768px) {
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 80px;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+
+
       `}</style>
     </div>
   );

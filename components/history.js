@@ -36,6 +36,21 @@ export default function History({ data }) {
           background: rgba(255,255,255,0.1);
           width: 90px;
         }
+
+        /* 📱 MOBILE */
+@media (max-width: 768px) {
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 70px;
+    font-size: 12px;
+  }
+}
+
+
       `}</style>
     </div>
   );
