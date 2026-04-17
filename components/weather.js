@@ -150,32 +150,32 @@ export default function Weather() {
 
         }
           
-        /* 📱 MOBILE RESPONSIVE */
-@media (max-width: 768px) {
+        
+         @media (max-width: 768px) {
 
-  .container {
-    padding: 30px 10px;
-  }
+          .container {
+           padding: 30px 10px;
+           }
 
-  .header h1 {
-    font-size: 36px;
-  }
+          .header h1 {
+           font-size: 36px;
+           }
 
-  .header p {
-    font-size: 14px;
-  }
+          .header p {
+           font-size: 14px;
+           }
 
-  .cloud {
-    width: 120px;
-  }
+          .cloud {
+           width: 120px;
+           }
 
-  .cloud1 {
-    top: 80px;
-  }
+           .cloud1 {
+            top: 80px;
+           }
 
-  .cloud2 {
-    top: 160px;
-  }
+          .cloud2 {
+           top: 160px;
+           }
 }
 
             `}

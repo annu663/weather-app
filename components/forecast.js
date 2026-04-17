@@ -64,22 +64,22 @@ export default function Forecast({ data }) {
           font-size: 18px;
         }
 
-        /* 📱 MOBILE */
-@media (max-width: 768px) {
+       
+        @media (max-width: 768px) {
 
-  .row {
-    flex-wrap: wrap;
-  }
+        .row {
+         flex-wrap: wrap;
+         }
 
-  .card {
-    width: 80px;
-    padding: 10px;
-  }
+         .card {
+          width: 80px;
+          padding: 10px;
+          }
 
-  h2 {
-    font-size: 20px;
-  }
-}
+         h2 {
+         font-size: 20px;
+         }
+    }
 
 
 

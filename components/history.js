@@ -37,18 +37,18 @@ export default function History({ data }) {
           width: 90px;
         }
 
-        /* 📱 MOBILE */
-@media (max-width: 768px) {
+        /*  MOBILE */
+        @media (max-width: 768px) {
 
-  .row {
-    flex-wrap: wrap;
-  }
+        .row {
+        flex-wrap: wrap;
+        }
 
-  .card {
-    width: 70px;
-    font-size: 12px;
-  }
-}
+        .card {
+         width: 70px;
+         font-size: 12px;
+         }
+    }
 
 
       `}</style>

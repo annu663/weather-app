@@ -85,33 +85,32 @@ export default function WeatherData({ data }) {
           font-size: 20px;
         }
 
-        /* 📱 MOBILE */
-@media (max-width: 768px) {
+       @media (max-width: 768px) {
 
-  .card {
-    width: 95%;
-    padding: 25px;
-  }
+       .card {
+        width: 95%;
+        padding: 25px;
+       }
 
-  .top {
-    flex-direction: column;
-    text-align: center;
-  }
+       .top {
+        flex-direction: column;
+         text-align: center;
+         }
 
-  h1 {
-    font-size: 45px;
-  }
+        h1 {
+        font-size: 45px;
+        }
 
-  img {
-    width: 100px;
-    margin-top: 10px;
-  }
+        img {
+         width: 100px;
+         margin-top: 10px;
+         }
 
-  .info {
-    flex-direction: column;
-    gap: 15px;
-  }
-}
+         .info {
+          flex-direction: column;
+           gap: 15px;
+           }
+      }
 
 
       `}</style>

@@ -44,25 +44,25 @@ export default function Search({ city, setCity, getWeather }) {
           background: #2563eb;
         }
 
-        /* 📱 MOBILE */
-@media (max-width: 768px) {
+        
+        @media (max-width: 768px) {
 
-  .search {
-    flex-direction: column;
-    align-items: center;
-  }
+        .search {
+         flex-direction: column;
+         align-items: center;
+         }
 
-  input {
-    width: 100%;
-    border-radius: 30px;
-    margin-bottom: 10px;
-  }
+         input {
+         width: 100%;
+         border-radius: 30px;
+         margin-bottom: 10px;
+         }
 
-  button {
-    width: 100%;
-    border-radius: 30px;
-  }
-}
+         button {
+         width: 100%;
+         border-radius: 30px;
+          }
+      }
       
       `}</style>
 
